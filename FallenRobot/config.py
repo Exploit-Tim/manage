@@ -2,35 +2,35 @@ class Config(object):
     LOGGER = True
 
     # Get this value from my.telegram.org/apps
-    API_ID = 
-    API_HASH = ""
+    API_ID = 26550183
+    API_HASH = "25be30608ef422623c7d8a55bfb98c62"
 
-    CASH_API_KEY = ""  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
+    CASH_API_KEY = "2G27FIONSHYJ22SK"  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
 
     DATABASE_URL = ""  # A sql database url from elephantsql.com
 
-    EVENT_LOGS = ()  # Event logs channel to note down important bot level events
+    EVENT_LOGS = (-1002535004474)  # Event logs channel to note down important bot level events
 
-    MONGO_DB_URI = ""  # Get ths value from cloud.mongodb.com
+    MONGO_DB_URI = "mongodb+srv://wtfbruh:KontolXD#123@fsub.brzgete.mongodb.net/?retryWrites=true&w=majority&appName=fsub"  # Get ths value from cloud.mongodb.com
 
     # Telegraph link of the image which will be shown at start command.
     START_IMG = "https://files.catbox.moe/88u4eu.jpg"
 
-    SUPPORT_CHAT = ""  # Your Telegram support group chat username where your users will go and bother you
+    SUPPORT_CHAT = "AstaSupportt"  # Your Telegram support group chat username where your users will go and bother you
 
-    TOKEN = ""  # Get bot token from @BotFather on Telegram
+    TOKEN = "7168512728:AAG1XkxYDNAwrENhdOPtYf1GanhVe9RBnro"  # Get bot token from @BotFather on Telegram
 
-    TIME_API_KEY = ""  # Get this value from https://timezonedb.com/api
+    TIME_API_KEY = "7VR1D5XRDTZ5"  # Get this value from https://timezonedb.com/api
 
-    OWNER_ID = 7834641788  # User id of your telegram account (Must be integer)
+    OWNER_ID = 6904648429  # User id of your telegram account (Must be integer)
 
     # Optional fields
-    BL_CHATS = [7834641788]  # List of groups that you want blacklisted.
-    DRAGONS = [7834641788]  # User id of sudo users
-    DEV_USERS = [7834641788]  # User id of dev users
-    DEMONS = [7834641788]  # User id of support users
-    TIGERS = [7834641788]  # User id of tiger users
-    WOLVES = [7834641788]  # User id of whitelist users
+    BL_CHATS = [6904648429]  # List of groups that you want blacklisted.
+    DRAGONS = [6904648429]  # User id of sudo users
+    DEV_USERS = [6904648429]  # User id of dev users
+    DEMONS = [6904648429]  # User id of support users
+    TIGERS = [6904648429]  # User id of tiger users
+    WOLVES = [6904648429]  # User id of whitelist users
 
     ALLOW_CHATS = True
     ALLOW_EXCL = True

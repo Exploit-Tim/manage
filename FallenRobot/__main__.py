@@ -78,7 +78,7 @@ PM_START_TEXT = """
 *๏ ɢᴀ ᴀᴅᴀ ʏᴀɴɢ sᴘᴇsɪᴀʟ sᴀᴍᴀ ᴀᴊᴀ ᴋᴇᴋ ʙᴏᴛ ᴍᴜsɪᴄ ʟᴀᴇɴ*
 *๏ ʙᴏᴛ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇʟᴏʟᴀ ᴅᴀɴ ᴍᴇᴍᴜᴛᴀʀ ᴍᴜꜱɪᴄ ᴅɪɢʀᴜᴘ ᴀɴᴅᴀ ᴅᴇɴɢᴀɴ ʙᴇʀʙᴀɢᴀɪ ꜰɪᴛᴜʀ*
 ─────────────────
-*๏ ᴅᴇᴠᴇʟᴏᴘᴇʀ 👑: @AstaBoyNich*
+*๏ ᴅᴇᴠᴇʟᴏᴘᴇʀ 👑: @reymalvinn*
 ─────────────────
 *๏ ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇᴛᴀʜᴜɪ ᴍᴏᴅᴜʟ ᴅᴀɴ ᴄᴏᴍᴍᴀɴᴅꜱ ⚠️*
 """
@@ -94,7 +94,7 @@ buttons = [
         InlineKeyboardButton(text="ᴅᴏɴᴀsɪ 💸", callback_data="fallen_"),
     ],
     [
-        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ 📩", url=f"https://t.me/astaboynich"),
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ 📩", url=f"https://t.me/reymalvinn"),
     ],
 ]
 
@@ -209,7 +209,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             START_IMG,
-            caption="ᴊᴏɴᴀᴛʜᴀɴ ᴍᴀɴᴀɢᴇ ʙᴏᴛ ᴀᴋᴛɪᴘ🔥 !\n<b>ᴀᴋᴛɪᴘ ᴅᴀʀɪ​:</b> <code>{}</code>".format(
+            caption="ʀᴇʏ ᴍᴀɴᴀɢᴇ ʙᴏᴛ ᴀᴋᴛɪᴘ🔥 !\n<b>ᴀᴋᴛɪᴘ ᴅᴀʀɪ​:</b> <code>{}</code>".format(
                 uptime
                 
             ),
@@ -352,7 +352,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="ᴊᴏɴᴀᴛʜᴀɴ ᴅᴇᴠ", url=f"https://t.me/astaboynich",
+                            text="ʀᴇʏ ᴍᴀʟᴠɪɴ ᴅᴇᴠ", url=f"https://t.me/reymalvinn",
                         ),
                     ],
                     [
@@ -369,15 +369,15 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="ᴠᴇɴᴜᴇʟᴀ ʙᴀsᴇ", url=f"https://t.me/venezuelaasexsss"),
+                        InlineKeyboardButton(text="ᴠᴇɴᴜᴇʟᴀ ʙᴀsᴇ", url=f"https://t.me/venezuela69"),
                     ],
                     [
-                        InlineKeyboardButton(text="ᴄᴏsᴀ ɴᴏsᴛʀᴀ ʙᴀsᴇ", url=f"https://t.me/cosananistragacor"),
+                        InlineKeyboardButton(text="ᴄᴏsᴀ ɴᴏsᴛʀᴀ ʙᴀsᴇ", url=f"https://t.me/COSANOSTRABAES"),
                         InlineKeyboardButton(text="ʜᴏʀɴʏ sᴡᴇᴇᴛ", url=f"https://t.me/sweethornyyy"),
                     ],
                     [
-                        InlineKeyboardButton(text="ғᴀɴᴛᴀsᴛɪᴄ ɢᴀɴᴋ", url=f"https://t.me/fantasticgank"),
-                        InlineKeyboardButton(text="sʟᴏᴛ ɢᴀᴄᴏʀ", url=f"https://bit.ly/pptele02-GBO338"),
+                        InlineKeyboardButton(text="ᴀsᴜᴘᴀɴ", url=f"https://t.me/reymalvinn"),
+                        InlineKeyboardButton(text="sʟᴏᴛ ɢᴀᴄᴏʀ", url=f"https://mpopetir.vip/register/Q2QQ951D"),
                     ],
                     [
                         InlineKeyboardButton(text="ᴋᴇᴍʙᴀʟɪ", callback_data="fallen_back"),
